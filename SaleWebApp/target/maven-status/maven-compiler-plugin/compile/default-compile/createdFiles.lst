@@ -1,0 +1,10 @@
+com\dht\pojo\Category.class
+com\dht\controllers\HomeController.class
+com\dht\configs\TilesConfig.class
+com\dht\service\impl\CategoryServiceImpl.class
+com\dht\service\CategoryService.class
+com\dht\configs\DispatcherInit.class
+com\dht\repository\impl\CategoryRepositoryImpl.class
+com\dht\repository\CategoryRepository.class
+com\dht\configs\HibernateConfig.class
+com\dht\configs\WebConfig.class
