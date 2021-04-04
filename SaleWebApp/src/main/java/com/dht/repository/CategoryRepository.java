@@ -7,6 +7,7 @@ package com.dht.repository;
 
 import com.dht.pojo.Category;
 import java.util.List;
+import org.hibernate.Session;
 
 /**
  *
@@ -14,4 +15,5 @@ import java.util.List;
  */
 public interface CategoryRepository {
     List<Category> getCategories();
+    Category getCateById(int id);
 }

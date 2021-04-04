@@ -44,5 +44,14 @@ public class CategoryRepositoryImpl implements  CategoryRepository {
 //        
 //        return cates;
     }
+
+    @Override
+    @Transactional
+    public Category getCateById(int id) {
+        Session s = this.sessionFactory.getObject().getCurrentSession();
+        return s.get(Category.class, id);
+    }
+    
+    
     
 }

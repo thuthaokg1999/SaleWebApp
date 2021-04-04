@@ -10,11 +10,11 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="#">Trang chủ</a>
+            <a class="nav-link" href="/SaleWebApp">Trang chủ</a>
         </li>
         <c:forEach items="${categories}" var="cate">
             <li class="nav-item">
-                <a class="nav-link" href="#">${cate.name}</a>
+                <a class="nav-link" href="<c:url value="/" />?cateId=${cate.id}">${cate.name}</a>
             </li>
         </c:forEach>
     </ul>

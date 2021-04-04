@@ -9,7 +9,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <h1 class="text-center text-success">DANH SÁCH SẢN PHẨM</h1>
-<table>
+<table class="table">
     <tr>
         <th>Mã sản phẩm</th>
         <th>Tên sản phẩm</th>
